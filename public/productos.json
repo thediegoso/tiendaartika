@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "nombre": "Bolsa de Hielo",
+        "categoria": "Hielo",
+        "precio": 5000,
+        "imagen": "img/Bolsa de Hielo.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Helado de Arequipe",
+        "categoria": "Helados",
+        "precio": 3000,
+        "imagen": "img/arequipe.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Helado de Bocadillo",
+        "categoria": "Helados",
+        "precio": 3000,
+        "imagen": "img/bocadillo.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Helado de Chocolate",
+        "categoria": "Helados",
+        "precio": 3000,
+        "imagen": "img/chocolate.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Helado de Oreo",
+        "categoria": "Helados",
+        "precio": 3000,
+        "imagen": "img/oreo.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Helado de Fresa",
+        "categoria": "Helados",
+        "precio": 3000,
+        "imagen": "img/fresa.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Helado de Maracuyá",
+        "categoria": "Helados",
+        "precio": 3000,
+        "imagen": "img/maracuya.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Helado de Coco",
+        "categoria": "Helados",
+        "precio": 3000,
+        "imagen": "img/coco.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Helado de Mango Biche",
+        "categoria": "Helados",
+        "precio": 3000,
+        "imagen": "img/mango-biche.jpg"
+    }
+]

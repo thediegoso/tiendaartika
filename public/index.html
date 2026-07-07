@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARTIKA | Hielo y Helados Artesanales</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         ENCABEZADO
+    ========================== -->
+
+    <header>
+
+        <div class="topbar">
+
+            <div class="logo">
+                <h1>❄️ ARTIKA</h1>
+
+                <p class="subtitulo">
+                    Hielo y Helados Artesanales
+                </p>
+
+                <p class="eslogan">
+                    Frescura que se siente, sabor que te encanta.
+                </p>
+            </div>
+
+            <div class="buscador">
+                <input
+                    type="text"
+                    id="buscar"
+                    placeholder="Buscar hielo o helados...">
+            </div>
+
+            <div class="carrito">
+                🛒 <span id="cantidadCarrito">0</span>
+            </div>
+
+        </div>
+
+        <nav>
+
+            <a href="#">Inicio</a>
+            <a href="#categorias">Categorías</a>
+            <a href="#productos">Productos</a>
+            <a href="#carrito">Mi Pedido</a>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- Banner -->
+
+        <section class="banner">
+
+            <div class="banner-contenido">
+
+                <h2>❄️ Bienvenido a ARTIKA</h2>
+
+                <p class="banner-subtitulo">
+                    Hielo y Helados Artesanales
+                </p>
+
+                <h3>
+                    Frescura que se siente,<br>
+                    sabor que te encanta.
+                </h3>
+
+            </div>
+
+        </section>
+
+        <!-- Aviso -->
+
+        <section class="aviso-domicilios">
+
+            🚚 <strong>Realizamos domicilios todos los días de 2:00 p.m. a 6:00 p.m.</strong>
+
+        </section>
+
+        <!-- CONTENIDO PRINCIPAL -->
+
+        <div class="contenido-principal">
+
+            <!-- IZQUIERDA -->
+
+            <div class="contenido-productos">
+
+                <section id="productosDestacados"></section>
+
+                <section id="categorias"></section>
+
+                <section id="productos"></section>
+
+            </div>
+
+            <!-- DERECHA -->
+
+            <aside id="carrito">
+
+                <h2>🛒 Mi Pedido</h2>
+
+                <div id="carrito-items"></div>
+
+                <h3>
+                    Total:
+                    <span id="carrito-total">$0</span>
+                </h3>
+
+                <button id="btn-pedido">
+                    Realizar pedido por WhatsApp
+                </button>
+
+            </aside>
+
+        </div>
+
+    </main>
+
+    <script src="js/idiomas.js"></script>
+
+    <script type="module" src="js/script.js"></script>
+
+</body>
+
+</html>
